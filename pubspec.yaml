@@ -1,0 +1,35 @@
+name: campus_lost_found
+description: Campus Lost and Found App
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.4
+  firebase_storage: ^12.3.2
+
+  # Image picking
+  image_picker: ^1.0.7
+
+  # State management
+  provider: ^6.1.1
+
+  # Unique IDs
+  uuid: ^4.3.3
+
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
